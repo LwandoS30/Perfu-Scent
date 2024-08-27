@@ -1,0 +1,36 @@
+&Customer Contact Info
+Frist name
+Last Name
+Phone Number
+Email Address
+
+&Address
+Street address
+City 
+Province
+Postal Code
+
+&Item Details
+Item name
+Item price R70, R150, R250
+Item description
+Item size
+Item quantity
+
+&Order info
+order date
+order status(pedding, shipped,  delivered)
+payment method
+
+&Order History
+
+
+
+On about us 
+include emails, whatsapp, facebook and phone number
+
+On Contact us
+Include only the form and a Map
+
+
+

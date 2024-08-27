@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.logo{
+    color: black;
+    text-align: left;
+    display: inline;
+
+    span{
+        color:rgb(67, 127, 238);
+    }
+
+    img{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.open-menu{
+    height: 50px;
+    width: 50px;
+}
+
+.close-menu{
+    height: 50px;
+    width: 50px;
+}
+/*Container of home page*/
+.container{
+    
+    display: flex;
+    justify-content: center;
+/*Navigation bar is for all pages*/
+    .navbar {
+        
+        margin-top: -45px;
+        padding-left: 130vh;
+        padding-bottom: 1px;
+        
+        a{
+            margin-top: -30px;
+            margin-right: 10px;
+            display: inline;
+            text-align: right;
+            text-decoration: none;
+            cursor: pointer;
+            color: gray;
+        
+        }
+
+        a:hover{
+            font-size:large;
+            font-weight: bolder;
+            background-color: aliceblue;
+            transform: scale(1.2);
+            transition: 3s;
+            color: black;
+        }
+    }
+}
+
+body{
+
+    padding: 20px;
+    border: 1px;
+    color: black;
+    font-family: Poppins;
+
+    main{
+        background-color: rgb(216, 208, 208);
+        background-size:200vh;
+        background-repeat: no-repeat;
+
+        /*height: 100%;*/
+        color: black;
+
+        .video-link{
+
+            position: relative;
+            top: 100px;
+            left: 15px;
+        
+            margin-top: 100px;
+            display: inline;
+            margin-bottom: 50px;
+            
+            img{
+                height: 20px;
+                width: 20px;
+                
+            }
+
+            
+            margin-bottom: 50px;
+        }
+
+        .scent-video{
+            position: relative;
+            top: 100px;
+            left: 15px;
+            width: 200px;
+            height: 200px;
+
+            border: solid 1px;
+            border-color: rgb(119, 42, 12) ;
+            box-shadow: 5px 5px 5px rgb(119, 42, 12) ;
+        }
+
+     
+        .sloga_2{
+            font-size:x-large;
+            margin-top: -90px;
+            margin-bottom: 40px;
+
+            /*padding-left: 50px;*/
+            width: auto;
+            
+            height: 60px;
+            border-color: black;
+            text-align: right;
+    
+        }
+
+        .main-images{
+            position: relative;
+            top: 250px;
+            background-color: rgb(11, 11, 54);  
+            height: 40%;
+            color: rgb(184, 184, 197);
+            font-size: large;
+            text-align: center;
+
+            img{
+                width: 250px;
+                height: 250px;
+                margin: 30px 30px 10px 10px;
+                border-radius: 10px;
+
+            }
+        }
+        
+        
+    }
+    
+}
+
+.about-us{
+    background-color: rgb(79, 97, 112);
+    height: auto;
+    /**/
+    padding-left: 10px;
+    margin-top: 600px;
+    
+    h2{
+        text-align: center;
+        font-size: large;
+    }
+   
+    .mission, .vission, .objectives{
+        width: auto;
+        display: inline-block;
+        position: relative;
+        top: 1%; 
+        margin-left: 8%;
+        margin-right: 10px;
+        margin-bottom: 2px;
+    }
+
+    .mission{
+        text-align: left;
+        p{
+            /*border: 1px solid lightgray;
+            */
+            width: 350px;
+            height: 300px;
+        }
+        span{
+            color: rgb(79, 172, 235);
+        }
+    }
+    .vission{
+        text-align: center;
+        p{
+            /*padding-left: 44%;
+            border: 1px solid lightgray;
+            */
+            width: 200px;
+            height: 130px;
+        }
+    }
+    .objectives{
+        text-align: right;
+        p{
+            width: 200px;
+            height: 130px;
+        }
+
+    }
+    .contact-icons{
+        margin-top: 50px;
+        display: flex;
+
+        img{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+            margin-left: 30px;
+            text-decoration: none;
+            
+        }
+
+    }
+    margin-bottom: -190px;
+
+}
+
+@media (max-width: 991px){
+
+    .vission .mission .objectives{
+        width: 100%;
+    }
+    .contact-icons{
+        color: whitesmoke;
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    
+}
+
+/*Contact us CSS Code*/
+.contact{
+    border: 3px solid black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(49, 49, 225);
+
+    h1{
+        font-size: xx-large;
+    }
+    .contact-form{
+        position: relative;
+        top: 0;
+        left: 50%;   
+        margin-top: -50%;
+    }
+
+    .contact .content{
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .contact .content h2{
+        font-size: 36px;
+        font-weight: 500;
+        color:#fff;
+    }
+
+    .contact .content p{
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .container{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px; 
+    }
+
+    .container .contactInfo{
+        width: 50%;
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .container .contactInfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+
+    .container .contactInfo .box .icon{
+        min-width: 60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+
+    .container .contactInfo .box .text{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #fff;
+        flex-direction: column;
+        font-weight: 300;
+    }
+    .container .contactInfo .box .text h3{
+        font-weight: 500;
+        color:#00bcd4;
+
+    }
+    .contact-form{
+        width: 40%;
+        padding: 40px;
+        font-weight: 500;
+    }
+
+    .contact-form .inputBox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .contact-form .inputBox input, 
+    .contact-form .inputBox textarea{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid black;
+        outline: none;
+        resize: none;
+
+    }
+
+    .contact-form .inputBox span{
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+
+    }
+
+    .contact-form .inputBox input:focus ~ span,
+    .contact-form .inputBox input:valid ~ span,
+    .contact-form .inputBox input:focus ~ span,
+    .contact-form .inputBox textarea:focus ~ span,
+    .contact-form .inputBox input:valid ~ span
+    {
+        width: 100px;
+        height: 30px;
+        color: #e91e63;
+        font-size: 10px;
+        transform: traslateY(-15px);
+    }
+    .contact-form .inputBox input[type="submit"]
+    {
+        width: 100px;
+        background: #2c646b;
+        color: #fff;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        align-items: center;
+    }
+    @media (max-width: 991px) {
+        .contact{
+            padding: 50px;
+        }
+        .container{
+            flex-direction: column;
+        }
+        .container .contactInfo{
+            margin-bottom: 40px;
+
+        }
+        .container .contactInfo .contact-form{
+            width: 100%;
+
+        }
+        .contact-form{
+            position: relative;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 50px;
+            width: 250px;
+
+        }
+        input{
+            width: 250px;
+        }
+        textarea{
+            height: 300px;
+            width: 250px;
+        }
+        
+    }
+
+}
+
+body{
+    background-color: whitesmoke;
+
+    h1{
+        text-align: center;
+        color: rgb(68, 84, 125);
+    }
+}
+/*Products main page*/
+main{
+
+    .perfume-images{
+        background-color: rgb(93, 93, 236);
+        
+        img{
+            padding: 5px;
+            padding-left: 5px;
+            height: 200px;
+            width: 200px;
+
+            border-radius: 20px;
+            
+            border: 2px solid snow;
+            color: white;
+
+            height: 240px;
+            width: 220px;
+            text-align: center;
+            margin-top: 3px;
+            margin-left: 5px;
+
+            .bae{
+                padding: 10px;
+            
+            }
+        }
+
+        
+    }
+}    
+
+footer{
+    background-color: rgb(110, 142, 231);;
+    text-align: center;
+
+}
