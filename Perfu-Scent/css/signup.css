@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*SignUp CSS*/
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4070f4;
+}
+
+.container{
+    position: relative;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
+}
+
+.container .form-signup{
+    padding: 30px;
+}
+
+.container .form-signup .heading{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+.container .form-signup .title{
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.container form .fields{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+form .fields .input-field{
+    display: flex;
+    width: calc(100% / 3 - 10px);
+    flex-direction: column;
+    margin: 4px 0;
+
+}
+.input-field label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.input-field input{
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #9f9696;
+    height: 40px;
+    padding: 0 15px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.input-field input:is(:focus, :valid){
+    box-shadow: 0 30px 6px rgba(0, 0, 0, 0.13);
+}
+.input-field input[type = "date"]{
+    color: #707070;
+}
+.input-field input[type = "date"]:valid{
+    color: #333;
+}
+.btn{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: rgb(47, 47, 143);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.9s;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.btn:hover{
+    background: #4070f4;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 0.9em;
+    font-weight: 1000;
+    font-weight: bolder;
+}
+button{
+    color: rgb(50, 50, 127);
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding-left: 10px;
+}
+button:hover{
+    text-decoration: underline;
+    color: #4070f4;
+}

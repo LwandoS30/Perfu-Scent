@@ -105,13 +105,12 @@ body{
             box-shadow: 5px 5px 5px rgb(119, 42, 12) ;
         }
 
-     
         .sloga_2{
             font-size:x-large;
             margin-top: -90px;
             margin-bottom: 40px;
 
-            /*padding-left: 50px;*/
+            padding-right: 30px;
             width: auto;
             
             height: 60px;
@@ -214,18 +213,35 @@ body{
 
 }
 
+@media (max-width: 642px){
+    .scent-video {
+        display: flex;
+        flex-direction: column;
+    }
+    .sloga_2 p{
+
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
 @media (max-width: 991px){
 
     .vission .mission .objectives{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
     }
     .contact-icons{
+        padding-left: 10px;
         color: whitesmoke;
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
         text-decoration: none;
-    }
-    
-    
+    }   
 }
 
 /*Contact us CSS Code*/
@@ -323,7 +339,8 @@ body{
     .contact-form .inputBox{
         position: relative;
         width: 100%;
-        margin-top: 10px;
+        margin-top: 100px;
+        height: 70px;
     }
     .contact-form .inputBox input, 
     .contact-form .inputBox textarea{
@@ -358,7 +375,7 @@ body{
     {
         width: 100px;
         height: 30px;
-        color: #e91e63;
+        color: #333;
         font-size: 10px;
         transform: traslateY(-15px);
     }
@@ -422,7 +439,7 @@ body{
 main{
 
     .perfume-images{
-        background-color: rgb(93, 93, 236);
+        /*background-color: rgb(93, 93, 236);*/
         
         img{
             padding: 5px;
