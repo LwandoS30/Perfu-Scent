@@ -1,0 +1,15 @@
+.item-card{
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 12px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(20, 20, 20);
+}
+
+.item-image{
+    width: 200px;
+    height: 170px;
+    border-radius: 4px;
+}
